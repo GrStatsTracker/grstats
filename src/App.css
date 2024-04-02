@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px 0;
+
+}
+
+.title {
+  color: #00FFCE;
+}
+
+.chart {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.chart:hover {
+  transform: translateY(-5px);
+}
+.summary {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.summary p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.summary p:first-child {
+  margin-top: 0;
+}
+

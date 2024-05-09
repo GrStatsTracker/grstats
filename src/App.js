@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function App() {
   const [playerData, setPlayerData] = useState(() => JSON.parse(localStorage.getItem('playerData')) || []);
-  const [newPlayerData, setNewPlayerData] = useState(() => JSON.parse(localStorage.getItem('newPlayerData')) || "not sure");
+  const [newPlayerData, setNewPlayerData] = useState(() => JSON.parse(localStorage.getItem('newPlayerData')) || {data:"unknown"});
   const [NPlayedLast30days, setNPlayedLast30days] = useState(() => JSON.parse(localStorage.getItem('NPlayedLast30days')) || []);
 
   useEffect(() => {
